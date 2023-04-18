@@ -5,5 +5,13 @@
 
 1. how to write shell script file 
 2. printing 
-3. shell
-4. scrpting
+3. variables
+4. inputs
+5. conditions
+6. loop
+7. function
+8. exit status 
+9. quotes
+10. sed editor
+11. 
+4. 
