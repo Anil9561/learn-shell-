@@ -1,0 +1,84 @@
+learn terraform
+resource "aws_instance" "frontend" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "frontend"
+  }
+}
+output "frontend" {
+value = aws_instance.frontend.public_ip
+}
+learn terraform
+resource "aws_instance" "mangodb" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "mangodb"
+  }
+}
+learn terraform
+resource "aws_instance" "catalouge" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "catalouge"
+  }
+}
+learn terraform
+resource "aws_instance" "redis" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "redis"
+  }
+}
+learn terraform
+resource "aws_instance" "user" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "user"
+  }
+}
+learn terraform
+resource "aws_instance" "cart" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "cart"
+  }
+}
+learn terraform
+resource "aws_instance" "mysql" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "mysql"
+  }
+}
+learn terraform
+resource "aws_instance" "shipping" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "shipping"
+  }
+}
+learn terraform
+resource "aws_instance" "payment" {
+  ami           = ami-0b5a2b5b8f2be4ec2
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "payment"
+  }
+}
